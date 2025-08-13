@@ -1,3 +1,4 @@
+# Project
 Projects Description:
 - Email_template_autobot - Print out the details of a template, user can insert the details to edit the template printed
 - SQL_where_or_querygenerator - Generate an SQL query based on list of IDs to search using "where" filter in SQL
