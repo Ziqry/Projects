@@ -19,6 +19,7 @@ else:
 
 # Show results
 st.subheader("📊 Results")
-st.write(f"**Monthly Payment:** ${monthly_payment:,.2f}")
-st.write(f"**Total Payment:** ${monthly_payment * num_payments:,.2f}")
-st.write(f"**Total Interest:** ${(monthly_payment * num_payments) - loan_amount:,.2f}")
+st.write(f"**Monthly Payment:** RM {monthly_payment:,.2f}")
+st.write(f"**Total Payment:** RM {monthly_payment * num_payments:,.2f}")
+st.write(f"**Total Interest:** RM {(monthly_payment * num_payments) - loan_amount:,.2f}")
+
