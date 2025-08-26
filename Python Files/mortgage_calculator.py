@@ -5,7 +5,7 @@ st.title("🏡 Mortgage Calculator")
 
 # User inputs
 # --- Loan amount input with auto-formatting ---
-loan_amount_str = st.text_input("Loan Amount ($)", "200,000")
+loan_amount_str = st.text_input("Loan Amount (RM)", "200,000")
 
 # Remove commas safely and reformat
 try:
@@ -19,7 +19,7 @@ except ValueError:
     loan_amount = 0
 
 # Re-render the input with the formatted value
-loan_amount_str = st.text_input("Loan Amount ($)", value="{:,.0f}".format(loan_amount) if loan_amount > 0 else "200,000", key="loan_amount_str")
+loan_amount_str = st.text_input("Loan Amount (RM)", value="{:,.0f}".format(loan_amount) if loan_amount > 0 else "200,000", key="loan_amount_str")
 loan_amount = float(loan_amount_str.replace(",", "")) if loan_amount_str.replace(",", "").isdigit() else 0
     
 interest_rate = st.number_input("Annual Interest Rate (%)", min_value=0.1, step=0.1, value=3.5)
@@ -39,5 +39,6 @@ st.subheader("📊 Results")
 st.write(f"**Monthly Payment:** RM {monthly_payment:,.2f}")
 st.write(f"**Total Payment:** RM {monthly_payment * num_payments:,.2f}")
 st.write(f"**Total Interest:** RM {(monthly_payment * num_payments) - loan_amount:,.2f}")
+
 
 
