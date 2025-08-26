@@ -13,10 +13,10 @@ def format_number(val: str) -> str:
 
 # Initialize state if not already
 if "loan_amount" not in st.session_state:
-    st.session_state.loan_amount = "200,000"
+    st.session_state.loan_amount = "300,000"
 
 # Show text input with formatted value
-loan_amount_str = st.text_input("Loan Amount ($)", st.session_state.loan_amount)
+loan_amount_str = st.text_input("Loan Amount (RM)", st.session_state.loan_amount)
 
 # Format and save back to state
 formatted_amount = format_number(loan_amount_str)
@@ -46,6 +46,7 @@ st.subheader("📊 Results")
 st.write(f"**Monthly Payment:** RM {monthly_payment:,.2f}")
 st.write(f"**Total Payment:** RM {monthly_payment * num_payments:,.2f}")
 st.write(f"**Total Interest:** RM {(monthly_payment * num_payments) - loan_amount:,.2f}")
+
 
 
 
