@@ -5,3 +5,4 @@
 - Recall: True positive among actual positives.
 - F1-score: Harmonic mean of precision and recall.
 - ROC curve: plot of true positive rate against false positive rate.
+![Image](https://github.com/user-attachments/assets/1b98f627-db8e-40fe-a63e-66b09124d9b8)
