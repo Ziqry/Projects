@@ -1,0 +1,7 @@
+# Notes
+- Confusion Matrix: matrix to show true and false positives/negatives.
+- Accuracy: Proportion of correctly classified instances.
+- Precision: True positive rate among predicted positives.
+- Recall: True positive among actual positives.
+- F1-score: Harmonic mean of precision and recall.
+- ROC curve: plot of true positive rate against false positive rate.
