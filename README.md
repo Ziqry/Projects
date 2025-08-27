@@ -7,5 +7,3 @@ Projects Description:
 - pdf_merger - Merge multiple pdf files into 1 pdf file
 - wutwut_2.0 - Notes and examples
 
-
-# test
