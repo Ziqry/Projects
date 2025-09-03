@@ -6,4 +6,5 @@ Projects Description:
 - pdf_keyword_search - Search for a keyword set by the user in a pdf file
 - pdf_merger - Merge multiple pdf files into 1 pdf file
 - wutwut_2.0 - Notes and examples
+- PD model - logistic regression - Predict probability of default 
 
