@@ -7,4 +7,4 @@ Projects Description:
 - pdf_merger - Merge multiple pdf files into 1 pdf file
 - wutwut_2.0 - Notes and examples
 - PD model - logistic regression - Predict probability of default 
-
+- Loan default prediction - comparing multiple models - comparing different models' performance to predict loan default
